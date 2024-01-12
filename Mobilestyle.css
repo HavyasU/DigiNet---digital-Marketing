@@ -1,0 +1,76 @@
+@media screen and (max-width: 600px) {
+    * {
+        outline: 2px solid red;
+    }
+
+    body {
+        outline: 2px solid rgb(6, 39, 255);
+    }
+
+    /* ASIDE  */
+    .aside .nav-items {
+        display: none;
+    }
+
+    /* HOME  */
+
+    #home .home-intro {
+        flex-direction: column;
+    }
+
+    #home .home-intro h1 {
+        font-size: 2rem;
+    }
+
+    #home .home-intro .home-img {
+        width: 20rem;
+    }
+
+    #home .home-intro .home-img img {
+        width: 100%;
+    }
+
+    /* About  */
+    #about {
+        flex-direction: column;
+    }
+
+    #about .desc,
+    #about .desc li {
+        width: 10rem;
+    }
+
+    /* SERVICES  */
+    #services .services-top p {
+        width: 20rem;
+    }
+
+    /* CONTATCT  */
+    .contact-form-top
+    {
+        width: 100vw;
+        overflow: hidden;
+    }
+    #contact .contact-bot
+    {
+        width: 100vw;
+        overflow: hidden;
+    }
+    #contact .contact-top h1 {
+        font-size: 1.5rem;
+    }
+
+    #contact .contact-top p {
+        font-size: 1rem;
+    }
+
+    #contact .contact-form-top .flex {
+        flex-direction: column;
+    }
+
+    #contact .contact-bot .contact-form .c-input,
+    .contact-form .c-text-area {
+        width: 8rem;
+    }
+
+}
