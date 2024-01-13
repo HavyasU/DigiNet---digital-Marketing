@@ -43,8 +43,15 @@
         padding-left: 15px;
     }
 
-    .m-nav-list li {
-        /*  */
+    .aside .mobile-nav li {
+        padding: 7px 5px;
+    }
+
+    .aside .mobile-nav .m-nav-list .btn {
+        padding-block: 0px;
+        height: 2.4rem;
+        font-size: 15px;
+        width: 8rem;
     }
 
     /* HOME  */
@@ -52,7 +59,7 @@
     #home .home-intro {
         flex-direction: column;
         padding: 0;
-        padding-top: 7.5rem;
+        padding-top: 8rem;
         padding-bottom: 1.5rem;
         flex-direction: column;
         justify-content: center;
@@ -131,6 +138,7 @@
     #services {
         padding: 0;
         padding-top: 1rem;
+        margin-block: 30px;
     }
 
     #services .services-top h1 {
@@ -145,6 +153,9 @@
     #services .services-bot .services-card-container .services-card {
         padding: 10px;
         margin: 10px;
+        width: 92vw;
+        padding-block: 5px;
+        margin-block: 13px;
     }
 
     #services .services-bot .services-card-container .card-top img {
@@ -155,27 +166,35 @@
     #services .services-bot .services-card-container .card-bot p {
         font-size: 10px;
     }
+
     .services-bot .services-card-container .card-bot h1 {
         font-size: 24px;
         padding: 3px 0;
     }
+
     /* //Transoparent  */
     .transparent-background {
         height: 15rem;
     }
-    .transparent-div p
-    {
+
+    .transparent-div p {
         font-size: 14px;
     }
-    .transparent-div .btn
-    {
+
+    .transparent-div .btn {
         font-size: 20px;
     }
+
     .transparent-div h2 {
         font-size: 33px;
         margin: 10px;
     }
+
     /* CONTATCT  */
+    #contact 
+    {
+        scroll-margin-top: 1rem;
+    }
     .contact-form-top {
         width: 100vw;
         overflow: hidden;
@@ -193,6 +212,7 @@
         text-align: center;
 
     }
+
     #contact .contact-top h1 {
         font-size: 1.5rem;
         text-align: center;
@@ -204,8 +224,10 @@
         width: fit-content;
         padding: 0;
     }
+
     #contact .contact-bot .bot-left img {
         width: 3rem;
+        display: none;
         /* margin-top: -7rem; */
     }
 
@@ -217,17 +239,20 @@
     .contact-form .c-text-area {
         width: 16rem;
     }
+
     /* footer */
     footer {
-        
+
         padding: 15px;
-        gap:0rem;
+        gap: 0rem;
         font-size: 14px;
     }
+
     footer .footer-nav li:first-child {
         width: 68px;
     }
-    .back-to-top{
+
+    .back-to-top {
         right: 20px;
         bottom: 25px;
         width: 2rem;
